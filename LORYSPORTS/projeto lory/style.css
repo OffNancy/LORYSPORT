@@ -1,0 +1,318 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    
+
+
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-image: url(/img\ lory.jpg);
+background-position: center;
+
+
+
+}
+
+header img{
+
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-image: url(/img\ lory.jpg);
+  position: relative;
+  left: -30rem;
+
+}
+
+header p{
+  position: absolute;
+  color: white;
+  font-style: italic;
+  font-size: 160%;
+  top: 4.8em;
+  align-items: center;
+  text-align: center;
+  font-family: 'Pacifico' , cursive;
+    left: 37.5rem; 
+
+}
+ /*header ul{
+display: flex;
+list-style: none; 
+}
+ 
+ hea{
+margin-inline: 2rem;
+
+} */
+
+.ull{
+  position: absolute;
+  bottom: 60em;
+  left: 71rem;
+  top: 12rem;
+  list-style: none;
+}
+
+li{
+font-size: 1.5rem;
+margin: 1rem;
+
+}
+.ull img{
+
+  width: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  top: 1rem;
+  right: 9rem ;
+  
+}
+.zap{
+
+  position: absolute;
+  top: 16rem;
+  width: 3.8rem;
+  left: 67.5rem;
+  bottom: 30rem;
+  
+
+  }
+
+
+
+
+
+  
+
+ /* para tirar a margem de tudo da tela é necessario usra o *   margim 0-------------*/ 
+
+  /*-codepen.oi   para acessar o html e css --------------*/
+
+
+
+
+
+ #p1{
+  font-size: 2em;
+   width: 700px;
+   margin-left: 4rem;
+   margin-top: 2rem;
+   color: rgb(251, 74, 9);
+   font-family: 'Pacifico', cursive;
+   display: flex;
+
+}
+
+div img{
+
+  width: 15rem;
+  position: absolute;
+  left: 50rem;
+  bottom: 15rem;
+}
+
+video{
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  top: 74rem;
+  left: 57rem;
+  
+   
+}  
+  
+ 
+
+
+
+ /*nao posso esquecer de usar o  flax conteiner  para modificar meu UL ---------------------------*/
+
+ #manutençao1{
+  position: absolute;
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-inline: 5rem;
+  color: rgb(251, 74, 9);
+  font-family: 'Pacifico', cursive;
+  
+ }
+ #manutençaoimg{
+position: absolute;
+width: 10rem;
+border-radius: 50%;
+height: 10rem;
+margin-top: 15rem;
+margin-inline: 5rem;
+}
+
+#manuP{
+  position: absolute;
+  font-size: 1.5rem;
+  margin-top: 26rem;
+  margin-inline: 1rem;
+  color: rgb(251, 74, 9);
+  width: 10rem;
+  left: 4rem;
+  background-color: orangered;
+  color: black;
+  text-align: center;
+  }
+#lavagem{
+  font-size: 2rem;
+  position: absolute;
+  left: 25rem;
+  width: 3.5em; 
+  margin-top: 10rem;
+  margin-inline: 1rem;
+  color: rgb(251, 74, 9);
+  font-family: 'Pacifico', cursive;
+  
+ }
+ #lavagemimg{
+  position: absolute;
+  left: 23.4rem;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  margin-top: 15rem;
+  margin-inline: 1rem;
+}
+
+#lava{
+
+  font-size: 1.5rem;
+  position: absolute;
+  left: 24rem;
+  height: 10rem;
+  width: 10rem; 
+  margin-top: 26rem;
+  margin-inline: 1rem;
+  color: rgb(251, 74, 9);
+  background-color: orangered;
+  color: black;
+  text-align: center;
+
+  }
+
+#passeio{
+  margin-top: 10rem;
+  font-size: 2rem;
+  position: absolute;
+  left: 45rem;
+  margin-inline: 1rem;
+  color: rgb(251, 74, 9);
+  font-family: 'Pacifico', cursive;
+ }
+ #consertoimg{
+  position: absolute;
+  left: 44rem;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  margin-top: 15rem;
+  margin-inline: 1rem;
+
+ }
+
+#passeioP{
+
+  font-size: 1.5rem;
+  position: absolute;
+  left: 44rem;
+  width: 10rem; 
+  margin-top: 26rem;
+  margin-inline: 1rem;
+  color: rgb(251, 74, 9);
+  background-color: orangered;
+  color: black;
+  text-align: center;
+  }
+  
+
+
+ strong{
+  color: rgb(251, 74, 9);
+ }
+ div h2{
+left: 2rem;
+position: absolute;
+margin-top: 5rem;
+ }
+
+.container h2{
+ position: absolute;
+ top: 63rem;
+ font-family: 'Pacifico', cursive;
+ color: black;
+ font-size: 2.5rem;
+
+}
+.trilha{
+
+  display: flex;
+  font-size: 2rem;
+  margin-top: 45rem;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  background-color: orangered;
+  height: 500px;
+}
+
+
+.trilhap{
+ display: flex;
+ margin-bottom: 15rem;
+ margin-right: 40rem;
+ font-size: 2rem;
+ color: black;
+}
+
+.img1{
+
+  position: absolute;
+  width:  10rem;
+  height: 10rem;
+  top: 78rem;
+  left: 5rem;
+  border-radius: 50%;
+  
+  }
+  
+  .img2{
+    position: absolute;
+  width:  10rem;
+  height: 10rem;
+  top: 78rem;
+  left: 18rem;
+  border-radius: 50%;
+  }
+
+  .img3{
+    position: absolute;
+    width:  10rem;
+    height: 10rem;
+    top: 78rem;
+    left: 30rem;
+    border-radius: 50%;
+
+  }
+
+  .img4{
+    position: absolute;
+    width:  10rem;
+    height: 10rem;
+    top: 78rem;
+    left: 42rem;
+    border-radius: 50%;
+  }
+
